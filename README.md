@@ -4,7 +4,7 @@ GOAL: Build a profile site that is all about you and to showcase all the work th
 
 This is a chance to show off who you are, what you're about, and what you've accomplished.
 
-***Please refer to the Grading Criteria (found in Coding Rooms) for the full grading criteria for this project.***
+**Please refer to the Grading Criteria (found in Coding Rooms) for the full grading criteria for this project.**
 
 Your page will focus on four main areas:
 
