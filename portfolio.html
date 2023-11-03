@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:rgb(48, 48, 48); color: rgb(226, 225, 223);">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+            <h1>My Portfolio</h1>
+            <p>Junior Engineer</p>
+    
+        </header>
+
+        <nav class="menu">
+            <div>
+                <a href="home.html" target=”_blank”><img class="icon" src="img/home.png" alt="Home">
+                Home</a>
+            </div>
+    
+            <div>
+                <a href="bio.html" target=”_blank”><img class="icon" src="img/bio.png" alt="Biography">
+                Biography</a>
+            </div>
+    
+            <div>
+                <a href="experience.html" target=”_blank”><img class="icon" src="img/exp.png" alt="experience">
+                Experience</a>
+            </div>
+    
+            <div>
+                <a href="portfolio.html" target=”_blank”><img class="icon" src="img/port.png" alt="Portfolio">
+                Portfolio</a>
+            </div>
+        </nav>
+
+       <main>
+        <div>
+            <h2 class="center">Portfolio</h2>
+            <br>
+            <p>Here, you can explore some of the projects I've worked 
+                on during my journey. These projects reflect 
+                my passion for coding and development. I'm continuously learning 
+                and refining my skills to create innovative solutions.
+            </p>
+
+        <div>
+            <h3>The paper-rock-scissors game</h3>
+
+            <div style="border: 1px solid gold; border-radius: 20px; padding:30px ;">
+            <h5>GOAL:</h5>
+                Create a randomChoice function that returns a random selection of either "rock", 
+                "paper", or "scissors" every time the function is called.
+                <p>Level 1</p>
+                Initialize a function called randomChoice().
+                Initialize a variable called choice and store the result of Math.random() in the variable.
+                Multiply Math.random by 3.
+                <p>Level 2</p>
+                Wrap Math.random with Math.floor. Stuck? Click Reveal Content
+                Based on the value stored in choice:
+                Return the string rock if choice has a value of 0.
+                Return the string paper if choice has a value of 1.
+                Return the string scissors if choice has a value of 2.
+                <p>Level 3</p>
+                Call the function and console.log() the result to verify that it works!
+                <br>
+                <br>
+                <img src="img/rock.gif" alt="" width="200px" height="300px" class="center">
+            </div>
+                
+
+            <h3>Cash register Project</h3>
+    
+            <div style="border: 1px solid gold; border-radius: 20px; padding:30px ;"> 
+                <h5>GOAL: </h5> In index.js, there are a collection of functions which provide functionality for a cash register to be used by a point-of-sale system. Your task is to complete
+                 the functions by writing the logic to meet the specifications below:
+                <p>Levels:</p>
+                <p>level 1:
+                removeItem(name, drawer): Removes a single item from the drawer
+                addItem(name, drawer): Adds a single item to the drawer
+                </p>
+                <p>
+                Level 2:
+                countCoins(drawer): Counts how many coins are in the drawer
+                countNotes(drawer): Counts how many notes/bills are in the drawer
+                </p>
+                <p>
+                Level 3:
+                sumDrawer(drawer): Calculates the total amount of money in the drawer as a string formatted in dollars (see example below)
+                </p>
+                <p>
+                Level 4:
+                canMakeAmount(target, drawer): Determines whether it is possible to create a specific cash amount from the items in the drawer.
+                </p>
+                <p>Level 5:
+                transaction(cost, paid, drawer): Calculates the change required from a transaction and removes it from the drawer if possible.
+                Each function accepts a drawer array of objects. Currency types and amounts that may be in the drawer array are represented in integers rather than decimals.
+            </p>
+            <img  src="img/cash.gif" alt="" width="100px" height="300px" class="center">
+            </div>
+
+                
+
+        </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </main>
+    <footer>
+        &COPY;Magnan Sylla <p>Built in 2023</p>
+    </footer>
+</body>
+</html>
